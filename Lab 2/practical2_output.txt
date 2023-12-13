@@ -1,0 +1,210 @@
+############################################################################################################################
+Exercise 1:-
+Status:  Optimal
+
+Optimal Solution:---------------------
+Toy_A = 88.0 units.
+
+Toy_B = 20.0 units.
+
+
+The maximum profit is achieved to be: 2600€
+
+############################################################################################################################
+Exercise 2:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Catacombes, Cathedrale_Notre_Dame, Place_de_la_Concorde, Sainte_Chapelle
+Total price of Mr. Doe's visit is: 41.0 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+#########################################
+Preference 1:-
+If two sites are geographically very close (within a radius of 1 km of walking), he will prefer to visit these two sites instead of visiting only one.
+
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Catacombes, Jardin_Tuileries, Museum_Orsay, Place_de_la_Concorde
+Total price of Mr. Doe's visit is: 38.5 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+Is Preference1 same as ListVisit1:  False
+
+#########################################
+Preference 2:-
+He absolutely wants to visit the Eiffel Tower (TE) and Catacombes (CA).
+
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  6
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Place_de_la_Concorde, Sainte_Chapelle
+Total price of Mr. Doe's visit is: 43.5 €.
+Total duration of Mr. Doe's visit is: 11.25 hours.
+
+Is Preference2 same as ListVisit1:  False
+
+#########################################
+Preference 3:-
+If he visits Notre Dame Cathedral (CN) then he will not visit the Sainte Chapelle (SC).
+
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Catacombes, Museum_Orsay, Place_de_la_Concorde, Sainte_Chapelle
+Total price of Mr. Doe's visit is: 47.0 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+Is Preference3 same as ListVisit1:  False
+
+#########################################
+Preference 4:-
+He absolutely wants to visit Tour Montparnasse (TM).
+
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Cathedrale_Notre_Dame, Place_de_la_Concorde, Sainte_Chapelle, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 46.0 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+Is Preference4 same as ListVisit1:  False
+
+#########################################
+Preference 5:-
+If he visits the Louvre (ML) Museum then he must visit the Pompidou Center (CP).
+
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Catacombes, Cathedrale_Notre_Dame, Place_de_la_Concorde, Sainte_Chapelle
+Total price of Mr. Doe's visit is: 41.0 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+Is Preference5 same as ListVisit1:  True
+
+#########################################
+Preference 1 and Preference 2:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  5
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 50.0 €.
+Total duration of Mr. Doe's visit is: 11.0 hours.
+
+#########################################
+Preference 1 and Preference 3:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Catacombes, Jardin_Tuileries, Museum_Orsay, Place_de_la_Concorde
+Total price of Mr. Doe's visit is: 38.5 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+#########################################
+Preference 1 and Preference 4:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Jardin_Tuileries, Museum_Orsay, Place_de_la_Concorde, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 43.5 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+#########################################
+Preference 2 and Preference 5:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  6
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Jardin_Tuileries, Place_de_la_Concorde
+Total price of Mr. Doe's visit is: 35.0 €.
+Total duration of Mr. Doe's visit is: 11.25 hours.
+
+#########################################
+Preference 3 and Preference 4:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Catacombes, Place_de_la_Concorde, Sainte_Chapelle, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 51.0 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+#########################################
+Preference 4 and Preference 5:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  7
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Basilique_du_Sacre_Coeur, Cathedrale_Notre_Dame, Place_de_la_Concorde, Sainte_Chapelle, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 46.0 €.
+Total duration of Mr. Doe's visit is: 10.75 hours.
+
+#########################################
+Preference 1, Preference 2 and Preference 4:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  5
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 50.0 €.
+Total duration of Mr. Doe's visit is: 11.0 hours.
+
+#########################################
+Preference 2, Preference 3 and Preference 5:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  6
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Jardin_Tuileries, Place_de_la_Concorde
+Total price of Mr. Doe's visit is: 35.0 €.
+Total duration of Mr. Doe's visit is: 11.25 hours.
+
+#########################################
+Preference 2, Preference 3, Preference 4 and Preference 5:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  6
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Place_de_la_Concorde, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 50.0 €.
+Total duration of Mr. Doe's visit is: 11.75 hours.
+
+#########################################
+Preference 1, Preference 2, Preference 4 and Preference 5:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  5
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 50.0 €.
+Total duration of Mr. Doe's visit is: 11.0 hours.
+
+#########################################
+Preference 1, Preference 2, Preference 3, Preference 4 and Preference 5:-
+Status:  Optimal
+Total number of sites visited by Mr. Doe are:  5
+The sites that Mr. Doe should visit are:  Arc_de_Triomphe, Avenue_des_Champs_Elysees, Catacombes, Eiffel_Tower, Tour_Montparnasse
+Total price of Mr. Doe's visit is: 50.0 €.
+Total duration of Mr. Doe's visit is: 11.0 hours.
+
+#########################################
+Checking for identical with ListVisit1:-
+
+Are 'ListVisit 1' and 'ListVisit2_b' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_c' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_d' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_e' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_f' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_g' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_h' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_i' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_j' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_k' same ? False
+
+Are 'ListVisit 1' and 'ListVisit2_l' same ? False
+
+
+#########################################
+Rankings:-
+
+Kendall Tau between 'duration' and 'price': 0.606
+
+Spearman between 'duration' and 'price': 0.741
+
+
+Kendall Tau between 'duration' and 'appreciation': -0.152
+
+Spearman between 'duration' and 'appreciation': -0.206
+
+
+Kendall Tau between 'price' and 'appreciation': 0.085
+
+Spearman between 'price' and 'appreciation': 0.134
